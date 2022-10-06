@@ -9,16 +9,15 @@ numberTwo = 5;
 function bigNumber(numberOne , numberTwo) {
 
     if (numberOne > numberTwo) {
-        console.log ('El mayor número es', numberOne);
+        console.log ('El mayor es', numberOne);
         
     }   else if (numberTwo > numberOne) {
-        console.log ('El mayor número es', numberTwo);
+        console.log ('El mayor es', numberTwo);
 
     }   else {
-        console.log ('Los números son iguales');
+        console.log ('Son iguales');
     }
     
   }
 
-bigNumber (numberOne, numberTwo);
-console.log (bigNumber);
+console.log (bigNumber(numberOne, numberTwo));
