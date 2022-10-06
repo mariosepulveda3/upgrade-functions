@@ -19,4 +19,18 @@ const nameFinder = [
     'Jessica',
     'Marc'
   ];
-  function finderName(param)
+  
+  
+  function finderName(array, value) {
+
+    for (let i = 0; i < array.length; i++) {
+
+      if (array[i] == value) {
+
+        return console.log (true);
+      }
+    }
+    return console.log (false);
+  }
+
+  console.log (finderName(nameFinder));
