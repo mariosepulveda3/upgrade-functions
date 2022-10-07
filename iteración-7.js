@@ -28,7 +28,7 @@ const nameFinder = [
 
     for (let i = 0; i < array.length; i++) {
 
-      if (array[i] === value) {
+      if (array[i] == value) {
         return i;
       }    
         
@@ -36,7 +36,13 @@ const nameFinder = [
         return false;
     }
   
-  
+  console.log('La posición de Bruce es:');    
   console.log(finderName(nameFinder, 'Bruce'));
+  
+  console.log('----------------------');
+
+  console.log('la posición de Naruto es:');
+  console.log(finderName(nameFinder, 'Naruto'));
+
 
   
