@@ -37,15 +37,6 @@ let result= {};
 }
 console.log(repeatCounter(counterWords));
 
-
-// function repeatCounter(array) {
-
-  //   let counter = "";
-
-  //   for (let i = 0; i < array.length; i++) {
-
-  //     if (array[i])
-
-
-  //   }
-  // }
+// CORREGIDO EN CLASE, CON EJEMPLO DE COMPAÑERO.
+// PEQUEÑOS CAMBIOS REALIZADOS.
+// SEGUIR REPASANDO BUCLES.
