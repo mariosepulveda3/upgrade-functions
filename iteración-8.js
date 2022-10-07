@@ -20,14 +20,32 @@ const counterWords = [
     'code'
   ];
   
-  function repeatCounter(array) {
+function repeatCounter (array) {
 
-    let counter = "";
+let result= {};
 
-    for (let i = 0; i < array.length; i++) {
-
-      if (array[i])
-
-
+  for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    if (element in result) {
+      result[element]++;
+    }
+    else {
+      result[element]= 1;
     }
   }
+  return result;
+}
+console.log(repeatCounter(counterWords));
+
+
+// function repeatCounter(array) {
+
+  //   let counter = "";
+
+  //   for (let i = 0; i < array.length; i++) {
+
+  //     if (array[i])
+
+
+  //   }
+  // }

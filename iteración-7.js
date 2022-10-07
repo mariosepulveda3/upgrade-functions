@@ -29,7 +29,7 @@ const nameFinder = [
     for (let i = 0; i < array.length; i++) {
 
       if (array[i] === value) {
-        return [true, i];
+        return i;
       }    
         
         }
@@ -37,6 +37,6 @@ const nameFinder = [
     }
   
   
-  console.log(finderName(nameFinder, 'Mario'));
+  console.log(finderName(nameFinder, 'Bruce'));
 
   
